@@ -1,0 +1,78 @@
+--------------------------------------------------------------------------
+Automobil 
+    Lokacija            - String
+    Vrsta objave            - String (ponuda ili potraznja)
+    Dostupnost oglasa   - Boolean
+    Cijena              - Number | undefined (Number kada je postavljanje
+                                                undefined kada je na upit)  
+    Naziv oglasa        - String
+    Slika               
+    Opis                    - String
+    Propertys: {        - JSON
+        Proizvodjac i model - String
+        Stanje oglasa       - Boolean (novo - true, koristeno - false)
+        Kilovati            - Number
+        Godiste             - Number
+        Kubikaza            - Float
+        Gorivo              - String
+        Transmisija         - String
+        Broj vrata          - Number
+        Kilometraza         - Number
+        Dodatne informacije ...
+    }
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Nekretnina
+    Lokacija                - String
+    Vrsta objave            - String (ponuda ili potraznja)
+    Dostupnost oglasa       - Boolean
+    Cijena                  - Number | undefined (Number kada je postavljanje
+                                                undefined kada je na upit)  
+    Naziv oglasa            - String
+    Slika               
+    Opis                    - String
+    Propertys: {            - JSON
+        Kategorija nekretnine   - String
+        Stanje nekretnine       - String
+        Broj soba               - Number
+        Vrsta grijanja          - String
+        Kvadrati                - Number
+        Vrsta oglasa            - (true - prodaja, false - iznajmljivanje)
+    }
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+Usluga
+    Lokacija                - String
+    Vrsta objave            - String (ponuda ili potraznja)
+    Dostupnost oglasa       - Boolean
+    Cijena                  - Number | undefined (Number kada je postavljanje
+                                                undefined kada je na upit)  
+    Naziv oglasa            - String
+    Slika               
+    Opis                    - String
+    Propertys: {            - JSON
+        Naziv usluge        - String
+        Vrsta usluge        - String
+    }
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------
+Posao
+    Lokacija                - String
+    Vrsta objave            - String (ponuda ili potraznja)
+    Dostupnost oglasa       - Boolean
+    Cijena/Plata            - Number | undefined (Number kada je postavljanje
+                                                undefined kada je na upit)  
+    Naziv oglasa            - String
+    Slika               
+    Opis                    - String
+    Propertys: {            - JSON
+        Struka              - String
+        Prijava (e-mail)    - String
+        Vozacka dozvola     - Char
+        Vrijeme trajanja ogl- String
+        Radno iskustvo      - String
+        Vrsta zaposlenja    - String
+        Radno vrijeme       - String
+        Nivo obrazovanja    - String    
+    }
+------------------------------------------------------------------------------
