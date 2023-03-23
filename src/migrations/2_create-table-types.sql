@@ -1,0 +1,6 @@
+
+CREATE TABLE types(
+    id SERIAL NOT NULL PRIMARY KEY,
+    name VARCHAR(30) NOT NULL,
+    description VARCHAR(255)
+);

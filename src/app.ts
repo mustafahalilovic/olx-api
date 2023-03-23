@@ -1,8 +1,8 @@
 import 'dotenv/config';
+import { runMigrations } from './database/migrations';
+import { userRoutes } from './routes/user.route';
 import express, { Application } from "express";
 import cors from 'cors';
-import { runMigrations } from '../database/migrationSetup';
-import { userRoutes } from '../routes/users';
 
 const app: Application = express();
 
@@ -13,7 +13,7 @@ app.use(userRoutes);
 
 const PORT = 5000 || process.env.PORT;
 
-app.listen(PORT, ()=>{
+app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
     runMigrations();
 });
